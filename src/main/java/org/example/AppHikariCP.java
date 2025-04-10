@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AppHikariCP {
-    public static void main(String[] args) throws Exception {
+    public static void hikariConnection() throws Exception {
         DataSource ds = HikariDataSourceFactory.create();
 
         int threadCount = 5;

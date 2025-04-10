@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AppSingleConnection {
-    public static void main(String[] args) throws Exception {
+    public static void singleConnection() throws Exception {
         DataSource ds = new SingleConnectionDataSource(
                 "jdbc:postgresql://localhost:5432/testdb", "user", "password");
 
